@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) {
+        // declaracion de variables
         Scanner sc = new Scanner(System.in);
         int eleccion, numero1, numero2, resultado;
         float resultadoD;
@@ -12,39 +13,49 @@ public class Calculadora {
             eleccion = sc.nextInt();
             switch (eleccion) {
                 case 1:
-                    System.out.println("introduce el primer numero");
+                    System.out.println("Vamos a sumar");
+                    System.out.println("introduce el primer numero ");
                     numero1 = sc.nextInt();
-                    System.out.println("introduce el segundo numero");
+                    System.out.println("introduce el segundo numero ");
                     numero2 = sc.nextInt();
                     resultado = suma(numero1, numero2);
-                    System.out.println("La suma es" + resultado);
+                    System.out.println("La suma es " + resultado);
                     break;
                 case 2:
-                    System.out.println("introduce el primer numero");
+                    System.out.println("Vamos a restar");
+                    System.out.println("introduce el primer numero ");
                     numero1 = sc.nextInt();
+                    System.out.println("introduce el segundo numero ");
                     numero2 = sc.nextInt();
                     resultado = resta(numero1, numero2);
-                    System.out.println("La resta es" + resultado);
+                    System.out.println("La resta es " + resultado);
                     break;
                 case 3:
+                    System.out.println("Vamos a multiplicar");
+                    System.out.println("introduce el primer numero ");
                     numero1 = sc.nextInt();
+                    System.out.println("introduce el segundo numero ");
                     numero2 = sc.nextInt();
                     resultado = multiplicacion(numero1, numero2);
-                    System.out.println("La multiplicacion es" + resultado);
+                    System.out.println("La multiplicacion es " + resultado);
                     break;
                 case 4:
+                    System.out.println("Vamos a dividir");
+                    System.out.println("introduce el primer numero ");
                     numero1 = sc.nextInt();
+                    System.out.println("introduce el segundo numero ");
                     numero2 = sc.nextInt();
                     resultadoD = division(numero1, numero2);
-                    System.out.println("la division es" + resultadoD);
+                    System.out.println("la division es " + resultadoD);
                     break;
 
                 default:
+                    System.out.println("no has elejido un modo correcto con un numero de la lista");
                     break;
             }
 
         } while (eleccion != 0);
-
+        sc.close();
     }
 
     public static void mostrarMenu() {
@@ -75,9 +86,9 @@ public class Calculadora {
     }
 
     public static float division(int numero1, int numero2) {
-        float resultado;
-        resultado = numero1 / numero2;
-        return resultado;
+        float resultadoD;
+        resultadoD = numero1 / numero2;
+        return resultadoD;
 
     }
 
