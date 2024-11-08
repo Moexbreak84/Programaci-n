@@ -4,6 +4,7 @@ public class CalculadoraV2 {
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
+        // derclaracion de variables
 
         int eleccion, numero1, numero2, resultado;
         float resultadoD;
