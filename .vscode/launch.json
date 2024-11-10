@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "TEMA2_P2_E9",
+            "request": "launch",
+            "mainClass": "TEMA2_P2_E9",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
             "type": "msedge",
             "request": "launch",
             "name": "Open horario.html",
