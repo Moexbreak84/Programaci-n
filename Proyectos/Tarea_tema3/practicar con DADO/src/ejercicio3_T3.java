@@ -7,7 +7,7 @@ public class ejercicio3_T3 {
         int acumulador = 0;
         do {
             resultado = miDado.lanzar();
-            System.out.print(resultado);
+            System.out.println(resultado);
             // if(resultado == SEIS){}
             if (resultado.contentEquals("SEISSEIS")) {
                 acumulador = acumulador + 1;
