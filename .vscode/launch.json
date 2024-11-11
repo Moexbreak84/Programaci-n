@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ejercicio3_T3",
+            "request": "launch",
+            "mainClass": "ejercicio3_T3",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio2_T3",
+            "request": "launch",
+            "mainClass": "ejercicio2_T3",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio1_T1",
+            "request": "launch",
+            "mainClass": "ejercicio1_T1",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
+            "type": "java",
+            "name": "dos_Seis_Seguidos",
+            "request": "launch",
+            "mainClass": "dos_Seis_Seguidos",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
+            "type": "java",
             "name": "APP",
             "request": "launch",
             "mainClass": "APP",
