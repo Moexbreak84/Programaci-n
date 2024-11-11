@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "APP",
+            "request": "launch",
+            "mainClass": "APP",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
+            "type": "java",
             "name": "TEMA2_P2_E9",
             "request": "launch",
             "mainClass": "TEMA2_P2_E9",

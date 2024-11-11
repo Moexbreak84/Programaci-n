@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Proyectos/Tarea_tema3/practicar con DADO/lib/libaguadulce.jar"
+    ]
+}
