@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TEMA2_P2_E10",
+            "request": "launch",
+            "mainClass": "TEMA2_P2_E10",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
+            "type": "java",
             "name": "ejercicio3_T3",
             "request": "launch",
             "mainClass": "ejercicio3_T3",
