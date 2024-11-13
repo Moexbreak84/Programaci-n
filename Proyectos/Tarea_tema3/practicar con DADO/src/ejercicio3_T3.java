@@ -9,22 +9,13 @@ public class ejercicio3_T3 {
         do {
             resultado = miDado.lanzar();
             System.out.println(resultado);
-            // if(resultado == SEIS){}
-            if (resultado.contentEquals("SEIS")) {
-                acumulador = acumulador + 1;
-                // acumulador++;
-                // acumulador +=1;
-            } else {
-                acumulador = 0;
+            switch (resultado) {
+                case SEIS:
+                    resultado = resultado;
+                    break;
 
-            }
-            if (resultado.contentEquals("cinco")) {
-                acumulador = acumulador + 1;
-                // acumulador++;
-                // acumulador +=1;
-            } else {
-                acumulador = 0;
-
+                default:
+                    break;
             }
         } while (acumulador < 2);
 
