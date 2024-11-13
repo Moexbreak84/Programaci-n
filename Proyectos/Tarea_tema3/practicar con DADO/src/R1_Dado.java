@@ -1,6 +1,6 @@
 import aguadulce.Dado;
 
-public class ejercicio1_T1 {
+public class R1_Dado {
     public static void main(String[] args) throws Exception {
         Dado miDado = new Dado(6);
         String resultado;
