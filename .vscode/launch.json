@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hola_Mundo_VSCode",
+            "request": "launch",
+            "mainClass": "Entornos_de_Desarrollo.Hola_Mundo_VSCode",
+            "projectName": "1-DAW-Tareas_a303a3bc"
+        },
+        {
+            "type": "java",
             "name": "TEMA2_P2_E10",
             "request": "launch",
             "mainClass": "TEMA2_P2_E10",
