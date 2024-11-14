@@ -1,0 +1,16 @@
+h3 {
+    text-align: right;
+    background-color: blue;
+}
+
+div h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: lightblue;
+}
+
+div p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
