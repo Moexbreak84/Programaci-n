@@ -5,7 +5,7 @@ public class R1_Dado {
     private static Scanner sc = new Scanner(System.in);
 
     public static void prueba_dado() {
-        Dado miDado = new Dado(6);
+        Dado miDado = new Dado();
         String resultado;
         for (int i = 0; i < 20; i++) {
             resultado = miDado.lanzar();
@@ -14,7 +14,7 @@ public class R1_Dado {
     }
 
     public static void ejercicio1() {
-        Dado miDado = new Dado(6);
+        Dado miDado = new Dado();
         String resultado;
         int acumulador = 0;
         do {
@@ -34,7 +34,7 @@ public class R1_Dado {
     }
 
     public static void ejercicio2() {
-        Dado miDado = new Dado(6);
+        Dado miDado = new Dado();
         String resultado;
         int acumulador = 0;
         do {
@@ -58,7 +58,7 @@ public class R1_Dado {
     }
 
     public static void ejercicio3() {
-        Dado miDado = new Dado(20);
+        Dado miDado = new Dado();
         String resultado = "Nada", num_anterior = "";
         int acumulador = 0;
         do {
