@@ -114,4 +114,10 @@ public class R1_Dado {
         } while (!UNO || !DOS || !TRES || !CUATRO || !CINCO || !SEIS);
         System.out.println("Ya han salido todas las caras del dado ");
     }
+
+    public static void ejercicio5() {
+        Dado miDado = new Dado();
+        miDado = sc.nextInt();
+
+    }
 }
