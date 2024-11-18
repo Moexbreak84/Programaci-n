@@ -11,6 +11,7 @@ public class Calculadora {
         do {
             mostrarMenu();
             eleccion = sc.nextInt();
+
             switch (eleccion) {
                 case 1:
                     System.out.println("Vamos a sumar");

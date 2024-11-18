@@ -18,16 +18,71 @@ public class ejercicio1 {
                     System.out.println();
                     leido = true;
                 } else {
-                    System.out.println("El bombo elejido no es valido");
                 }
             } catch (Exception e) {
                 System.out.println("Error");
                 sc.next();
             }
             while (eleccion != 0) {
-                System.out.println("hola");
+                System.out.println("");
             }
+            for (int i = 30; i <= 90; i++) {
+                switch (eleccion) {
+                    case 1:
+                        System.out.println("introduce el primer numero");
+                        numero1 = sc.nextInt();
+                        try {
+                            numero1 = eleccion;
+                            bola_fuera = numero1;
+                        } catch (Exception e) {
+                            System.out.println("el numero no esta en las bolas del bombo seleccionado");
+                        }
+                    case 2:
+                        System.out.println("introduce el segundo numero");
+                        numero2 = sc.nextInt();
+                        try {
+                            numero1 = eleccion;
+                            bola_fuera = numero2;
+                        } catch (Exception e) {
+                            System.out.println("el numero no esta en las bolas del bombo seleccionado");
+                        }
+                    case 3:
+                        System.out.println("introduce el tercer numero");
+                        numero3 = sc.nextInt();
+                        try {
+                            numero1 = eleccion;
+                            bola_fuera = numero3;
+                        } catch (Exception e) {
+                            System.out.println("el numero no esta en las bolas del bombo seleccionado");
+                        }
+                    case 4:
+                        System.out.println("introduce el cuarto numero");
+                        numero4 = sc.nextInt();
+                        try {
+                            numero1 = eleccion;
+                            bola_fuera = numero4;
+                        } catch (Exception e) {
+                            System.out.println("el numero no esta en las bolas del bombo seleccionado");
+                        }
+                    case 5:
+                        System.out.println("introduce el quinto numero");
+                        numero5 = sc.nextInt();
+                        try {
+                            numero1 = eleccion;
+                            bola_fuera = numero5;
+                        } catch (Exception e) {
+                            System.out.println("el numero no esta en las bolas del bombo seleccionado");
+                        }
+                    default:
+                        System.out.println("los numeros elejidos son " + numero1 + " " + numero2 + " " + numero3 + " "
+                                + numero4 + " " + numero5);
+                        sc.close();
+                        break;
 
+                }
+                bola_fuera = miBombo.extraerBola();
+                System.out.println("la bola que ha salido es " + bola_fuera);
+            }
         }
 
     }
