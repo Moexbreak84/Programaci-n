@@ -11,7 +11,7 @@ public class TEMA2_P2_E11 {
         System.out.println(numero + " este numero es valido");
         int numero2 = numero, cifras = 0;
         while (numero2 > 0) {
-            numero2 /= 100;
+            numero2 /= 10;
             cifras++;
         }
         System.out.println("tiene esta cantidad de cifras " + cifras);
