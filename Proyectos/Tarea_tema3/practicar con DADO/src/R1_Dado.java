@@ -116,8 +116,19 @@ public class R1_Dado {
     }
 
     public static void ejercicio5() {
-        Dado miDado = new Dado();
-        miDado = sc.nextInt();
+        do{
+            try{
+            System.out.println("introduce el numero de caras para el dado ");
+            Dado miDado = new Dado(sc.nextInt());
+            }catch(){}
+        String resultado = "";
+        }while();
+        for (int i = miDado.getNumeroCaras(); i >= 1; i--) {
 
+            resultado = resultado + miDado.lanzar() + " ";
+
+        }
+        System.out.println(resultado);
+        sc.close();
     }
 }
