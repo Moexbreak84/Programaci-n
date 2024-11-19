@@ -26,7 +26,7 @@ public class ejercicio1 {
             while (eleccion != 0) {
                 System.out.println("");
             }
-
+4
             for (int i = 30; i <= 90;) {
                 if (eleccion = bola_fuera) {
 

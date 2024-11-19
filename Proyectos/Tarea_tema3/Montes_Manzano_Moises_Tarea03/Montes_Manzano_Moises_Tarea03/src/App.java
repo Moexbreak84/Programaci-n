@@ -1,8 +1,8 @@
 import aguadulce.Bombo;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-        ejercicio.Bombo1();
+    public static void main(String[] args) {
+        Bombo_profesor.main();
 
     }
 }
