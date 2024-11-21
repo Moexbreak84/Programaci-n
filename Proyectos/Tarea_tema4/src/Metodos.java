@@ -22,6 +22,21 @@ public class Metodos {
         return numero;
     }
 
+    public static char leerChar(String mensaje) {
+        char letra = a;
+        boolean error;
+        do {
+            try {
+                System.out.println(mensaje);
+                letra = sc.next().charAt(0);
+                error = false;
+            } catch (IllegalArgumentException e) {
+                System.out.println("error" + e.getMessage());
+            }
+        } while (error);
+        return letra;
+    }
+
     public static void cerrarSc() {
         sc.close();
     }
