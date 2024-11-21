@@ -8,7 +8,7 @@ public class ejercico3 {
             System.out.println("introduce los 12 numeros del vector ");
             numeros[i] = sc.nextInt();
         }
-        for (int i = 11; i > numeros.length; i--) {
+        for (int i = numeros.length - 1; i >= 0; i--) {
             System.out.println("estos son los numeros del vector del ultimo al primero " + numeros[i]);
         }
         sc.close();

@@ -1,0 +1,36 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Metodos {
+    private static Scanner sc = new Scanner(System.in);
+
+    public static int leerEntero(String mensaje) {
+
+        int numero = 0;
+        boolean error;
+        do {
+            try {
+                System.out.println(mensaje);
+                numero = sc.nextInt();
+                error = false;
+            } catch (InputMismatchException e) {
+                System.out.println("error");
+                sc.nextLine();
+                error = true;
+            }
+        } while (error);
+        return numero;
+    }
+
+    public static void cerrarSc() {
+        sc.close();
+    }
+
+    public static int multiplicacion(int numeros, int multi) {
+        int resultado;
+        resultado = numeros * multi;
+        return resultado;
+
+    }
+
+}

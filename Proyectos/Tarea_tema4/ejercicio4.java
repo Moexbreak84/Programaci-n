@@ -2,19 +2,23 @@ import java.util.Scanner;
 
 public class ejercicio4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int[] numeros = new int[20];
+        int igual = 0, inferior = 0, superior = 0;
+        inferior = Math.min(inferior, superior);
+        superior = Math.max(inferior, superior);
         for (int i = 0; i < numeros.length; i++) {
             System.out.println("introduce los 20 numeros de un solo digito debes repetir numeros ");
-            numeros[i] = sc.nextInt();
-
+            numeros[i] = Metodos.leerEntero("");
+            if (numeros[i] == 7) {
+                igual++;
+            } else if (numeros[i] < 7) {
+                inferior++;
+            } else {
+                superior++;
+            }
         }
-        if (numeros [] = 7) {
-            System.out.println("estos son todos los numeros 7 que hay guardados " + numeros == 7);
-        }else if(numeros < 7){
-
-        }
-        sc.close();
+        System.out.println("menores " + inferior + " iguales " + igual + " mayores " + superior);
+        Metodos.cerrarSc();
     }
 
 }
