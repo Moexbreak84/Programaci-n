@@ -1,3 +1,4 @@
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -23,17 +24,18 @@ public class Metodos {
     }
 
     public static char leerChar(String mensaje) {
-        char letra = a;
-        boolean error;
+        char letra = 'a';
+        boolean error = false;
         do {
             try {
                 System.out.println(mensaje);
-                letra = sc.next().charAt(0);
-                error = false;
+                letra = sc.nextLine().charAt(0);
+                error = true;
             } catch (IllegalArgumentException e) {
                 System.out.println("error" + e.getMessage());
+                sc.nextLine();
             }
-        } while (error);
+        } while (!error);
         return letra;
     }
 
