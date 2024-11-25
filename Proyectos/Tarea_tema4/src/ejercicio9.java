@@ -3,29 +3,35 @@ import aguadulce.*;
 public class ejercicio9 {
     public static void main(String[] args) {
         Dado mi_Dado = new Dado();
-        int uno = 0, dos = 0, tres = 0, cuatro = 0, cinco = 0, seis = 0;
+        int[] caras = new int[6];
         String resultado;
         for (int i = 0; i < 30; i++) {
             resultado = mi_Dado.lanzar();
             System.out.println(resultado);
-            if (resultado.contentEquals("SEIS")) {
-                seis++;
-            } else if (resultado.contentEquals("CINCO")) {
-                cinco++;
-            } else if (resultado.contentEquals("CUATRO")) {
-                cuatro++;
-            } else if (resultado.contentEquals("TRES")) {
-                tres++;
-            } else if (resultado.contentEquals("DOS")) {
-                dos++;
-            } else if (resultado.contentEquals("UNO")) {
-                uno++;
-            } else {
-
+            switch (resultado) {
+                case "UNO":
+                    caras[0]++;
+                    break;
+                case "DOS":
+                    caras[1]++;
+                    break;
+                case "TRES":
+                    caras[2]++;
+                    break;
+                case "CUATRO":
+                    caras[3]++;
+                    break;
+                case "CINCO":
+                    caras[4]++;
+                    break;
+                case "SEIS":
+                    caras[5]++;
+                    break;
             }
 
         }
-        System.out.println("Ha salido " + uno + " veces uno " + dos + " veces dos " + tres + " veces tres " + cuatro
-                + " veces cuatro " + cinco + " veces cinco " + seis + " veces seis");
+        System.out.println("Ha salido " + caras[0] + " veces uno " + caras[1] + " veces dos " + caras[2]
+                + " veces tres " + caras[3]
+                + " veces cuatro " + caras[4] + " veces cinco " + caras[5] + " veces seis");
     }
 }
