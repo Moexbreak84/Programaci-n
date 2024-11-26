@@ -1,3 +1,4 @@
+/*Crear e inicializar un vector de 10 elementos a 0 */
 public class ejercicio1 {
     public static void main(String[] args) {
         int[] numeros = new int[10];

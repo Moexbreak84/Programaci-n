@@ -1,3 +1,4 @@
+/*8. Programa que lea 14 letras sobre un vector y muestre cuántas vocales hay */
 public class ejercicio8 {
     public static void main(String[] args) {
         char[] letras = new char[14];

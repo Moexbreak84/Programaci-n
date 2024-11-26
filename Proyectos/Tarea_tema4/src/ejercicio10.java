@@ -1,3 +1,4 @@
+/* 10.Poner a 0 una matriz de 10 filas y 5 columnas y visualizar el contenido por filas.*/
 public class ejercicio10 {
     public static void main(String[] args) {
         int[][] matriz = new int[10][5];

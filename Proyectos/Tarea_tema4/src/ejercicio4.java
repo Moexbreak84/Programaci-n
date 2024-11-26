@@ -1,5 +1,8 @@
-import java.util.Scanner;
+/* 4. Programa que lea 20 números y muestre por pantalla:
 
+ Cuántos 7 hay.
+Cuántos son mayores que el 7.
+Cuántos son menores que el 7. */
 public class ejercicio4 {
     public static void main(String[] args) {
         int[] numeros = new int[20];

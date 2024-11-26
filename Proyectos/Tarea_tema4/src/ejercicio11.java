@@ -1,3 +1,4 @@
+/* 11.Introducir 8 valores por filas en una matriz de 4 por 2 y visualizarlos por columnas.*/
 public class ejercicio11 {
     public static void main(String[] args) {
         int[][] matriz = new int[4][2];

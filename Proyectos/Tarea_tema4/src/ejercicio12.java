@@ -1,7 +1,6 @@
+/*12.Introducir un valor y generar una matriz de ese tamaño. Inicializar las filas pares a 1 y las impares a 2. Visualiza la matriz.*/
 public class ejercicio12 {
-    /**
-     * @param args
-     */
+
     public static void main(String[] args) {
         int[][] matriz = new int[Metodos.leerEntero("introduce el numero de filas")][Metodos
                 .leerEntero("introduce el numero de columnas")];

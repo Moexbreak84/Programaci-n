@@ -1,3 +1,5 @@
+
+/*Leer 8 números de teclado, almacenarlos en un vector y visualizarlos. */
 import java.util.Scanner;
 
 public class ejercicio2 {

@@ -1,3 +1,5 @@
+
+/* Programa que lea 12 números enteros sobre un vector y los visualice al revés, es decir, comienza por el final del vector y termina en el elemento de la posición 0 */
 import java.util.Scanner;
 
 public class ejercico3 {

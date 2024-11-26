@@ -1,3 +1,5 @@
+
+/*9. Programa que genere al azar 30 lanzamientos de un dado y visualice cuántas veces ha salido cada cara. Para ello, utiliza un vector de tamaño 6 (un elemento por cada cara) en el que cada elemento sea un contador de cada una de las caras. */
 import aguadulce.*;
 
 public class ejercicio9 {

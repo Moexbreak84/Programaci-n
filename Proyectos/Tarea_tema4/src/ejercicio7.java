@@ -1,3 +1,4 @@
+/* 6. Programa que introduzca la edad de 20 personas en un vector. ¿Cuántos hay mayores de edad?*/
 public class ejercicio7 {
     public static void main(String[] args) {
         char[] letras = new char[14];
